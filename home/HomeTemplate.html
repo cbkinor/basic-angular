@@ -1,0 +1,8 @@
+<div class='pageWidth pageHeight outerContainer red'>
+  <div class='centerBox translucentGrey'>
+  <label>Enter your name</label><br/>
+    <input ng-model='homeCtrl.userService.name' type='text'></input><br/>
+    <a ng-href='#welcome' ng-click='homeCtrl.rememberUserName()'>Enter the Website, {{homeCtrl.userService.name}}!</a></br>
+    <input type='button' ng-click='homeCtrl.userService.clear()' value='Clear'></input>
+  </div>
+</div>

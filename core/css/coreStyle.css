@@ -1,5 +1,5 @@
 .outerContainer {
-  display: flex;
+display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -17,9 +17,22 @@
 }
 
 .red {
-  background-color: red;
+  background-color: #a0b6db;
 }
 
 .translucentGrey {
-  background-color: rgba(150, 150, 150, 0.5);
+  background-color: #a0b6db;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: yellow;
+  flex: none;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
 }
